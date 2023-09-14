@@ -1,0 +1,145 @@
+body {
+    margin: 200px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Roboto Mono";
+}
+
+#h {
+    margin-top: -150px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Merriweather";
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Space Mono";
+}
+
+.fonts h3 {
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.colors {
+    border: 1px solid #666666;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.colors h2 {
+    font-weight: bold;
+}
+
+.navy {
+    background-color: #202A44;
+    height: 110px;
+    width: 40%;
+    margin: 10px;
+    padding-top: 3px;
+    color: white;
+}
+
+.purple {
+    background-color: #800080;
+    height: 110px;
+    width: 40%;
+    margin: 10px;
+}
+
+.maroon {
+    background-color: #800000;
+    height: 110px;
+    width: 40%;
+    padding-top: 3px;    
+    margin: 10px;
+    color: white;
+}
+
+.orange {
+    background-color: #ffa500;
+    height: 110px;
+    width: 40%;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+.fonts {
+    border: 1px solid #666666;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.rules {
+    border: 1px solid #666666;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.block {
+    display: inline-block;
+}
+
+.roboto_mono {
+    width: 30%;
+}
+
+.merriweather {
+    width: 30%;
+}
+
+.space_mono {
+    width: 30%;
+}
+
+.roboto_mono .regular {
+    font-family: "roboto_mono"
+}
+
+.roboto_mono .bold {
+    font-weight: bold;
+    font-family: "roboto_mono";
+}
+
+.roboto_mono .italic {
+    font-style: italic;
+    font-family: "roboto_mono";
+}
+
+.merriweather .regular {
+    font-family: "merriweather"
+}
+
+.merriweather .bold {
+    font-weight: bold;
+    font-family: "merriweather";
+}
+
+.merriweather .italic {
+    font-style: italic;
+    font-family: "merriweather";
+}
+
+.space_mono .regular {
+    font-family: "space_mono"
+}
+
+.space_mono .bold {
+    font-weight: bold;
+    font-family: "space_mono";
+}
+
+.space_mono .italic {
+    font-style: italic;
+    font-family: "space_mono";
+}
