@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge Progect</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>All CSS Simple Selectors</h1>
+        </header>
+        <div>
+            <div class="info">
+                <h5>CSS selectors are used to "find" (or select) the HTML elements you want to style.</h5>
+                <p>We can divide CSS selectors into five categories:</p>
+                <ul>
+                    <li><span>Simple selectors</span> (select elements based on name, id, class)</li>
+                    <li><span>Combinator selectors</span>Combinator (select elements based on a specific relationship between them)</li>
+                    <li><span>Pseudo-class selectors</span>> (select elements based on a certain state)</li>
+                    <li><span>Pseudo-elements selectors</span> (select and style a part of an element)</li>
+                    <li><span>Attribute selectors</span> (select elements based on an attribute or attribute value)</li>
+                </ul>
+            </div>
+            <h2>CSS Selectors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Example</th>
+                        <th>Example description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first">#id</td>
+                        <td class="scd">#firstname</td>
+                        <td class="thrd">Selects the element with id="firstname"</td>
+                    </tr>
+                    <tr>
+                        <td class="first, white">.class</td>
+                        <td class="scd, white">.intro</td>
+                        <td class="thrd, white">Selects all elements with class="intro"</td>
+                    </tr>
+                    <tr>
+                        <td class="first">element.class</td>
+                        <td class="scd">p.intro</td>
+                        <td class="thrd">Selects only &lt;p&gt; elements with class="intro"</td>
+                    </tr>
+                    <tr>
+                        <td class="first, white">*</td>
+                        <td class="scd, white">*</td>
+                        <td class="thrd, white">Selects all elements</td>
+                    </tr>
+                    <tr>
+                        <td class="first">element</td>
+                        <td class="scd">p</td>
+                        <td class="thrd">Selects all &lt;p&gt; elements</td>
+                    </tr>
+                    <tr>
+                        <td class="first, white">element,element,..</td>
+                        <td class="scd, white">div, p</td>
+                        <td class="thrd, white">Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>Information taken from<a href="https://www.w3schools.com/css/css_selectors.asp">W3Schools.com</a></footer>
+    </body>
+</html>
