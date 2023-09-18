@@ -1,0 +1,183 @@
+body {  
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    font-size: 22px;;
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    margin-top: -69px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header {
+    position: fixed;
+    align-items: center;
+}
+
+.nav {
+    margin-right: 15px;
+}
+
+.nav p{
+    display: inline-flex;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.container img {
+    height: 50px;
+    width: auto;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 69px;
+}
+
+.main {  
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("resoursec/img-mission-background.webp");
+    background-position: center; 
+}
+
+.main .mission {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    line-height: 0%;
+    flex: 1 1;
+}
+
+.sub {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+.images img {
+    width: 300px;
+    height: 200px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.surname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    flex-wrap: wrap;
+
+}
+
+.surname p {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.images p {
+    display: flex;
+    padding: 5px 75px;
+    margin-top: 0;
+    justify-content: space-between;
+
+}
+
+.mainloc {
+    display: flex;
+    height: 500px;
+    max-width: 1200px;
+    margin: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1;
+}
+
+.location {
+    display: flex;
+    background-image: url("resoursec/img-locations-background.webp");
+    height: 500px;
+    max-width: 1200px;
+    margin: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1;
+}
+
+.location h2 {
+    margin-top: 0;
+}
+.address {
+    display: flex;
+}
+
+.downtown {
+    background-color: black;
+    margin: 15px 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.east {
+    background-color: black;
+    margin: 15px 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.oakdale {
+    background-color: black;
+    margin: 15px 20px;
+    text-align: center;
+    width: 300px;
+    opacity: 1;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+    height: 200px;
+    width: 100%;
+    line-height: 0%;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    margin-left: 20px;
+    justify-content: flex-start;
+    font-size: 18px;
+}
